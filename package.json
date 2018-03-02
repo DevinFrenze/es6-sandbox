@@ -1,0 +1,17 @@
+{
+  "name": "javascript-weirdness",
+  "version": "1.0.0",
+  "description": "testing some javascript stuff",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "execute": "node lib/index.js",
+    "build-ex": "npm run build; npm run execute"
+  },
+  "author": "Devin Frenze",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

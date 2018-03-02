@@ -1,0 +1,10 @@
+# npm and babel files
+node_modules/*
+lib/*
+
+# apple files
+.DS_Store
+
+# vim files
+*.swp
+*.swo

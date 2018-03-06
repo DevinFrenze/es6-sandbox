@@ -4,7 +4,7 @@
   "description": "testing some javascript stuff",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "build": "rm -rf lib; babel src -d lib",
     "execute": "node lib/index.js",
     "build-ex": "npm run build; npm run execute"
   },

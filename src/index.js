@@ -1,3 +1,8 @@
+import './modules';
+// import './modules/index';
+// import './modules/index.js';
+
+/*
 function f() {
   console.log('function');
 }
@@ -53,3 +58,4 @@ console.log(Test);
 console.log(typeof Test);
 console.log(Object.getOwnPropertyDescriptors(Test));
 console.log(Object.getOwnPropertyDescriptors(Test.prototype));
+*/

@@ -41,8 +41,8 @@ function codeBlock(s) {
 }
 
 
-export function writeReadMe(codeExamples) {
-  const stream = fs.createWriteStream("README.md");
+export function writeReadMe(codeExamples, fileName) {
+  const stream = fs.createWriteStream(`${fileName}.md`);
   const lineBreak = '\n\n';
 
   stream.once('open', () => {
